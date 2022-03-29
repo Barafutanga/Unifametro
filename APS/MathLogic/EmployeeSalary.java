@@ -1,4 +1,4 @@
-package APS;
+package MathLogic;
 import java.util.Scanner;
 
 public class EmployeeSalary {

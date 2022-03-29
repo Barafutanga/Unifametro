@@ -1,4 +1,4 @@
-package APS.MathLogic;
+package MathLogic;
 import java.util.Scanner;
 
 public class BemBao {
