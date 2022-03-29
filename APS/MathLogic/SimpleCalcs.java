@@ -1,8 +1,6 @@
 package APS.MathLogic;
 import java.util.Scanner;
 
-
-
 public class SimpleCalcs {
 
     public static int ItemA(int a, int b) {
@@ -31,13 +29,14 @@ public class SimpleCalcs {
         int2 = sc.nextInt();
         System.out.print("double1: ");
         double1 = sc.nextDouble();
-    
+        
+        //a
         System.out.printf("(2 * %d) * (1/2 * %d) = ", int1, int2);
         System.out.println(ItemA(int1, int2));
-
+        //b
         System.out.printf("(3 * %d) + %.2f = ", int1, double1);
         System.out.println(ItemB(int1, double1));
-
+        //c
         System.out.printf("%.2f³ = ", double1);
         System.out.println(ItemC((int) double1));
         

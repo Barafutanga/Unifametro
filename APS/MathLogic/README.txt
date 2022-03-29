@@ -1,3 +1,11 @@
-Olá professora, Antônio Otaviano falando.
-Professora, esta lista de exercício é incompatível com o que foi lecionado pela senhora em sala de aula até dado momento.
-DownoladLib demorou 2:21hr para ser concluído! Houve momentos em que tive de desenvolver algoritmos sem uma base explicada pela senhora. Fora que, há itens/questões pouco explicadas, confundindo o aluno!
+Olá professora, Antônio Otaviano falando. Aqui segue uma lista da ordem das
+questões e seus respectivos programas:
+
+1 - UnitConverter.java
+2 - SqrArea.java
+3 - SimpleCalcs.java
+4, 6 & 7 - TintStore.java
+5 - DownloadLib.java
+8 - BemBao.java
+9 - PostoIpiranga.java
+10 - EmployeeSalary.java
