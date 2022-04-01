@@ -1,8 +1,7 @@
-package MathLogic;
+package APS;
 import java.util.Scanner;
 
-public class Debug {
-    
+public class PostoIpiranga {
     public static double payValue(double lPrice, double lTank) {
         double payValue = lPrice * lTank;
         return payValue;
@@ -30,7 +29,7 @@ public class Debug {
                 System.out.printf("TOTAL: $%.2f\n", payValue(ang, litters));
             }
         } while (fType >= 0 && fType <= 2);
-
+        
         System.out.println("bye!");       
         sc.close();
     }
