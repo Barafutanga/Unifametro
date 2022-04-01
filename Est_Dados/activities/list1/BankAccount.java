@@ -1,4 +1,4 @@
-package list1;
+package activities.list1;
 
 public class BankAccount {
     public static void main (String[] args) {

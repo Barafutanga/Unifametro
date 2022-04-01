@@ -1,4 +1,4 @@
-package teacher.lista_ligada;
+package activities.teacher.lista_ligada;
 public class Elemento<TIPO>{
 	private TIPO valor;
 	private Elemento<TIPO> proximo;

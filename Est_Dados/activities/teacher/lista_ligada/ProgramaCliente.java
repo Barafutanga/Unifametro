@@ -1,4 +1,4 @@
-package teacher.lista_ligada;
+package activities.teacher.lista_ligada;
 public class ProgramaCliente {
     public static void main(String []args) {
         ListaLigada<Cliente> clientes = new ListaLigada<Cliente>();

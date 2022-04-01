@@ -1,4 +1,4 @@
-package list1;
+package activities.list1;
 
 import java.util.Scanner;
 

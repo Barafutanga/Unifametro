@@ -1,4 +1,4 @@
-package linked_list;
+package activities.linked_list;
 
 public class Element<TYPE> {
 	private TYPE value;

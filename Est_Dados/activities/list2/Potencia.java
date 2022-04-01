@@ -1,4 +1,4 @@
-package list2;
+package activities.list2;
 import java.util.Scanner;
 
 public class Potencia {

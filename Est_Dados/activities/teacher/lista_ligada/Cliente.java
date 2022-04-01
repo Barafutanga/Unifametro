@@ -1,4 +1,4 @@
-package teacher.lista_ligada;
+package activities.teacher.lista_ligada;
 public class Cliente {
     private String cpf;
     private String nome;

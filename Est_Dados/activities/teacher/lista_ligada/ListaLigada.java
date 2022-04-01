@@ -1,34 +1,34 @@
-package teacher.lista_ligada;
+package activities.teacher.lista_ligada;
 public class ListaLigada<TIPO> {
 	private Elemento<TIPO> primeiro;
 	private Elemento<TIPO> ultimo;
 	private int tamanho;
-
+	
 	public ListaLigada() {
 		this.tamanho = 0;
 	}
-
+	
 	public Elemento<TIPO> getPrimeiro() {
 		return primeiro;
 	}
 	public void setPrimeiro(Elemento<TIPO> primeiro) {
 		this.primeiro = primeiro;
 	}
-
+	
 	public Elemento<TIPO> getUltimo() {
 		return ultimo;
 	}
 	public void setUltimo(Elemento<TIPO> ultimo) {
 		this.ultimo = ultimo;
 	}
-
+	
 	public int getTamanho() {
 		return tamanho;
 	}
 	public void setTamanho(int tamanho) {
 		this.tamanho = tamanho;
 	}
-
+	
 	public void adicionar(TIPO novoValor) { // 1 - banana 2 -jabuticaba
 		Elemento<TIPO> novoElemento = new Elemento<TIPO>(novoValor);
 		if(this.primeiro == null && this.ultimo == null) {
@@ -40,7 +40,7 @@ public class ListaLigada<TIPO> {
 		}
 		this.tamanho++; // tamanho = tamanho + 1
 	}
-
+	
 	public void remover(TIPO valorProcurado) {
 		Elemento<TIPO> anterior = null;
 		Elemento<TIPO> atual = this.primeiro;
