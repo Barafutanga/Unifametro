@@ -1,4 +1,4 @@
-package AP1;
+package AP1.Recursivity;
 import java.util.Arrays;
 public class Question1 {
 

@@ -2,7 +2,7 @@ package activities.teacher.lista_ligada;
 public class Programa {
 
 	public static void main(String[] args) {
-		ListaLigada<Double> lista = new ListaLigada<Double>();
+		ListaLigada<Double> lista = new ListaLigada<>();
 		lista.adicionar(12.22);
 		lista.adicionar(21.1);
 		lista.adicionar(33.0);
