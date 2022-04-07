@@ -1,4 +1,4 @@
-package AP1.LinkedList.Question2;
+package AP1.LinkedList.Question4;
 
 public class LinkedList<TYPE> {
     private Element<TYPE> first;
@@ -42,11 +42,11 @@ public class LinkedList<TYPE> {
         this.size++;
     }
     
-    public void remove(int j) {
+    public void remove(Element<TYPE> searchValue) {
         Element<TYPE> past = null;
         Element<TYPE> actual = this.first;
         for(int i = 0; i < this.getSize(); i++) {
-            if(actual.getValue().equals(j)) {
+            if(actual.getValue() != null) {
                 if(this.size == 1) {
                     this.first = null;
                     this.last = null;

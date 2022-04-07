@@ -1,4 +1,4 @@
-package AP1.LinkedList.Question2;
+package AP1.LinkedList.Question4;
 public class Element<TYPE> {
     private TYPE value;
     private Element<TYPE> next;
