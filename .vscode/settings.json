@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "MathLogic",
-        "Est_Dados"
+        "Est_Dados",
+        "PLP/Classe"
     ]
 }
