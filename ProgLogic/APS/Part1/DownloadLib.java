@@ -1,5 +1,4 @@
-package APS;
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class DownloadLib {
     public static double download(int file, int speed) {

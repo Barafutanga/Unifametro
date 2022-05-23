@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "ProgLogic/APS/Part1",
+        "PLP/Classe",
         "MathLogic",
         "Est_Dados",
-        "PLP/Classe"
+        "ProgLogic/APS/Part2"
     ]
 }

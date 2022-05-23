@@ -1,15 +1,15 @@
-# Ruby code for calculating the factorial of a number recursively.
+# Calcula fatoral usnado recursididade
 
 def RecursiveFactorial(number)
     
-    # Base Case:
+    # Caso base:
     if (0..1).include?(number)
         return 1
     end
     
-    #Recursive call:
+    #Chamada recursiva:
     number * RecursiveFactorial(number - 1)
 end
-# Calling the method:
 
+# Chamando o método:
 print RecursiveFactorial(4)

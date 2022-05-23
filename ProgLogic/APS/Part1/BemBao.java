@@ -1,4 +1,3 @@
-package APS;
 import java.util.Scanner;
 
 public class BemBao {
