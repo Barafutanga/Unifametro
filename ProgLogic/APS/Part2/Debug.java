@@ -1,21 +1,24 @@
-import java.util.Scanner;
 public class Debug {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int v1;
-        String v2;
-
-        //OCT > DEC
-        System.out.print("INSERT VALUE TO CONVERT\nVALUE: ");
-            v2 = Integer.toString(sc.nextInt());
-            v1 = Integer.parseInt(v2, 8);
-            System.out.printf("ORIGINAL: %s | x10: %d", v2, v1);
-
-        //DEC > OCT
-        System.out.print("INSERT VALUE TO CONVERT\nVALUE: ");
-            v1 = sc.nextInt();
-            v2 = Integer.toOctalString(v1);
-            System.out.printf("ORIGINAL: %d | x10: %s", v1, v2);
-        sc.close();
+    
+    private int num1;
+    
+    public int getNum1() {
+        return num1;
     }
-}
+    
+    public void setNum1(int num1) {
+        this.num1 = num1;
+    }
+    
+    public String verificaTriangular() {
+        int i = 1;
+        for (i = 1; i * (i + 1) * (i + 2) < num1; i++) {
+            if (i * (i + 1) * (i + 2) == num1) {
+                return "É triangular";
+            }
+            
+        }
+        return "Não é triangular";
+        
+    }
+}    

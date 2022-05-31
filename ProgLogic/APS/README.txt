@@ -11,4 +11,11 @@ Part 1
     9 - PostoIpiranga.java
     10 - EmployeeSalary.java
 Part 2
-    
+    1 - CarDealer.java
+    2 - AgeMile.java
+    3 - StockVerif.java
+    4 - Rchlo.java
+    5 - Converter.java
+    6 - Mercadinho.java
+Part 3
+    1 - DETRAN.java
