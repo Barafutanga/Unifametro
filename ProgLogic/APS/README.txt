@@ -19,3 +19,10 @@ Part 2
     6 - Mercadinho.java
 Part 3
     1 - DETRAN.java
+    2 - SpecificCalc.java
+    3 - TriNum.java
+    4 - NumPrint.java
+    5 - AgeGrowth.java
+    6 - Demography.java
+    7 - MonkGrain.java
+    8 - RandomNum.java
