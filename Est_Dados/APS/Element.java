@@ -14,7 +14,6 @@ public class Element<TYPE> {
     public TYPE getValue() {
         return value;
     }
-
     public void setValue(TYPE value) {
         this.value = value;
     }
@@ -22,7 +21,6 @@ public class Element<TYPE> {
     public Element<TYPE> getLeft() {
         return left;
     }
-
     public void setLeft(Element<TYPE> left) {
         this.left = left;
     }
@@ -30,7 +28,6 @@ public class Element<TYPE> {
     public Element<TYPE> getRight() {
         return right;
     }
-
     public void setRight(Element<TYPE> right) {
         this.right = right;
     }

@@ -12,7 +12,8 @@ public class TreeSeedling<TYPE extends Comparable> {
         if (root == null) { //insert current element into the root space
             this.root = newElement;
         } else {
-            Element<TYPE> actual = this.root; //actual is related to values injection, comparing new values to give them a direction (left or right)
+            Element<TYPE> actual = this.root; //actual is related to values injection,
+            //comparing new values to give them a direction (left or right)
             while (true) {
                 if (newElement.getValue().compareTo(actual.getValue()) == -1) { //if newElement is lesser than actual
                     if (actual.getLeft() != null) { //looking for another comparisson
